@@ -1,0 +1,2622 @@
+# depslib dependency file v1.0
+1432139575 source:f:\programs\opengl\glsfml\main.cpp
+	<gl3w.h>
+	<SFML/Window.hpp>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	<vector>
+	<array>
+	<sstream>
+	"Shader.cpp"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"objLoader.cpp"
+
+1432241099 f:\programs\opengl\glsfml\\gl3w.h
+	"glcorearb.h"
+
+1430933631 f:\programs\opengl\glsfml\\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1430934831 f:\programs\opengl\glsfml\\\gl3w.h
+	<glcorearb.h>
+
+1430933631 f:\programs\opengl\glsfml\\\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1430934435 source:f:\programs\opengl\glsfml\gl3w.c
+	<gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1430930469 c:\sfml-2.2\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1430930469 c:\sfml-2.2\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1430930469 c:\sfml-2.2\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1430930469 c:\sfml-2.2\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1430930469 c:\sfml-2.2\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1430930469 c:\sfml-2.2\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1430930469 c:\sfml-2.2\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1430930469 c:\sfml-2.2\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\utf.inl
+
+1430930470 c:\sfml-2.2\include\sfml\system\string.inl
+
+1430930470 c:\sfml-2.2\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\thread.inl
+
+1430930470 c:\sfml-2.2\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1430930470 c:\sfml-2.2\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\threadlocalptr.inl
+
+1430930470 c:\sfml-2.2\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\vector2.inl
+
+1430930470 c:\sfml-2.2\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1430930470 c:\sfml-2.2\include\sfml\system\vector3.inl
+
+1430930470 c:\sfml-2.2\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\contextsettings.hpp
+
+1430930470 c:\sfml-2.2\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1430930470 c:\sfml-2.2\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1430930470 c:\sfml-2.2\include\sfml\window\windowstyle.hpp
+
+1431028192 f:\programs\opengl\glsfml\shader.h
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1432129422 source:f:\programs\opengl\glsfml\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1432129422 f:\programs\opengl\glsfml\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1432129444 f:\programs\opengl\glsfml\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1431725223 f:\programs\opengl\glsfml\main.cpp
+	<gl3w.h>
+	<SFML/Window.hpp>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	<vector>
+	<array>
+	<sstream>
+	"Shader.cpp"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"objLoader.cpp"
+
+1432129444 source:f:\programs\opengl\glsfml\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1430934831 f:\programs\opengl\glsfml\gl3w.h
+	<glcorearb.h>
+
+1430933631 f:\programs\opengl\glsfml\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1432138572 f:\programs\opengl\glsfml\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1432138572 f:\programs\opengl\glsfml\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1432138572 f:\programs\opengl\glsfml\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\utf.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\string.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\thread.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\threadlocalptr.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\vector2.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\system\vector3.inl
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\contextsettings.hpp
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1432138573 f:\programs\opengl\glsfml\sfml\include\sfml\window\windowstyle.hpp
+
+1431162019 f:\programs\opengl\glsfml\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\_fixes.hpp
+	<cmath>
+
+1431162019 f:\programs\opengl\glsfml\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\precision.hpp
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\_swizzle.hpp
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\_swizzle_func.hpp
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec2.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec3.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec4_sse2.inl
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec4_avx.inl
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec4_avx2.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x2.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x3.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat2x4.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x2.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x3.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat3x4.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x2.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x3.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_mat4x4.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_vec1.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_vector_relational.inl
+	<limits>
+
+1431162019 f:\programs\opengl\glsfml\glm\common.hpp
+	"detail/func_common.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1431162019 f:\programs\opengl\glsfml\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\detail\type_half.inl
+
+1431162019 f:\programs\opengl\glsfml\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1431162019 f:\programs\opengl\glsfml\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1431162019 f:\programs\opengl\glsfml\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1431162020 f:\programs\opengl\glsfml\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1431162020 f:\programs\opengl\glsfml\glm\gtc\constants.inl
+	<limits>
+
+1431162020 f:\programs\opengl\glsfml\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1430930835 source:f:\programs\opengl\knife\knife\gl3w.c
+	<gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1432583176 source:f:\programs\opengl\knife\knife\main.cpp
+	<gl3w.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<math.h>
+	<vector>
+	<array>
+	<sstream>
+	"Shader.cpp"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"objLoader.cpp"
+
+1432125822 f:\programs\opengl\knife\knife\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1431158419 f:\programs\opengl\knife\knife\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\_fixes.hpp
+	<cmath>
+
+1431158419 f:\programs\opengl\knife\knife\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\precision.hpp
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\_swizzle.hpp
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\_swizzle_func.hpp
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec2.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec3.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec4_sse2.inl
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec4_avx.inl
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec4_avx2.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x2.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x3.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat2x4.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x2.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x3.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat3x4.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x2.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x3.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_mat4x4.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_vec1.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_vector_relational.inl
+	<limits>
+
+1431158419 f:\programs\opengl\knife\knife\glm\common.hpp
+	"detail/func_common.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1431158419 f:\programs\opengl\knife\knife\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\detail\type_half.inl
+
+1431158419 f:\programs\opengl\knife\knife\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1431158419 f:\programs\opengl\knife\knife\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1431158419 f:\programs\opengl\knife\knife\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1431158420 f:\programs\opengl\knife\knife\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1431158420 f:\programs\opengl\knife\knife\glm\gtc\constants.inl
+	<limits>
+
+1431158420 f:\programs\opengl\knife\knife\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1432463724 f:\programs\opengl\knife\knife\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1432125822 source:f:\programs\opengl\knife\knife\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1432463724 source:f:\programs\opengl\knife\knife\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\utf.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\string.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\thread.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocalptr.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\vector2.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\system\vector3.inl
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\contextsettings.hpp
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1432134973 f:\programs\opengl\knife\knife\sfml\include\sfml\window\windowstyle.hpp
+
+1430931231 f:\programs\opengl\knife\knife\gl3w.h
+	<glcorearb.h>
+
+1430930031 f:\programs\opengl\knife\knife\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rect.inl
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\primitivetype.hpp
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1432134972 f:\programs\opengl\knife\knife\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1430934435 source:g:\programs\opengl\knife\knife\gl3w.c
+	<gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1430934831 g:\programs\opengl\knife\knife\gl3w.h
+	<glcorearb.h>
+
+1430933631 g:\programs\opengl\knife\knife\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1448021001 source:g:\programs\opengl\knife\knife\main.cpp
+	<gl3w.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<math.h>
+	<vector>
+	<array>
+	<sstream>
+	"Shader.cpp"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"objLoader.cpp"
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\utf.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\string.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\thread.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\threadlocalptr.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\vector2.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\system\vector3.inl
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\contextsettings.hpp
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1432138573 g:\programs\opengl\knife\knife\sfml\include\sfml\window\windowstyle.hpp
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rect.inl
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\primitivetype.hpp
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1432138572 g:\programs\opengl\knife\knife\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1432129422 g:\programs\opengl\knife\knife\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+
+1431162019 g:\programs\opengl\knife\knife\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\_fixes.hpp
+	<cmath>
+
+1431162019 g:\programs\opengl\knife\knife\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\precision.hpp
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\_swizzle.hpp
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\_swizzle_func.hpp
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec2.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec3.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec4_sse2.inl
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec4_avx.inl
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec4_avx2.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x2.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x3.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat2x4.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x2.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x3.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat3x4.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x2.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x3.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_mat4x4.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_vec1.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_vector_relational.inl
+	<limits>
+
+1431162019 g:\programs\opengl\knife\knife\glm\common.hpp
+	"detail/func_common.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1431162019 g:\programs\opengl\knife\knife\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\detail\type_half.inl
+
+1431162019 g:\programs\opengl\knife\knife\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1431162019 g:\programs\opengl\knife\knife\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1431162019 g:\programs\opengl\knife\knife\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1431162020 g:\programs\opengl\knife\knife\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1431162020 g:\programs\opengl\knife\knife\glm\gtc\constants.inl
+	<limits>
+
+1431162020 g:\programs\opengl\knife\knife\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1432467324 g:\programs\opengl\knife\knife\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1432467324 source:g:\programs\opengl\knife\knife\objloader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<sstream>
+	<array>
+
+1432129422 source:g:\programs\opengl\knife\knife\shader.cpp
+	<string>
+	<gl3w.h>
+	<iostream>
+	<fstream>
+	<vector>
+

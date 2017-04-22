@@ -1,0 +1,39 @@
+#version 440 core
+out vec3 color;
+in vec3 fragNormal;
+in vec3 lampPos;
+in vec3 fragCoord;
+in vec2 texCoord;
+
+uniform sampler2D diffuseTex;
+
+float intensity;
+
+float shine = 20; //the bigger, the more subtle the specular
+vec3 shineAdd = vec3(0.3, 0.3, 0.3);//add this amount of shine
+float ambiantIntensity = 0.5; //the amount on ambiant light (0.0-1.0)
+
+void main(){
+    vec3 lightDir = normalize(vec3(lampPos-fragCoord));
+
+    intensity = dot(lightDir, normalize(fragNormal));
+
+    intensity = clamp(intensity, 0.0, 1.0);
+
+    vec3 diffuseColor = vec3(texture(diffuseTex, texCoord));
+
+    vec3 diffuse = diffuseColor * vec3(intensity);
+
+
+    vec3 v = normalize(-fragCoord.xyz);
+    vec3 r = reflect( -lightDir, normalize(fragNormal));
+
+    vec3 spec = vec3(0.0);
+     if( intensity > 0.0 )
+        spec = vec3(1.0,1.0,1.0)* //reflection color
+        pow( max( dot(r,v) , 0.0 ), shine)*
+        (diffuseColor+shineAdd); //reflection pwr
+
+    vec3 ambiant = vec3(ambiantIntensity)*diffuseColor;
+    color = diffuse+spec;
+}

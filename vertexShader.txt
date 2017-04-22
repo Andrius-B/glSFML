@@ -1,0 +1,35 @@
+#version 440 core
+
+layout(location = 0) in vec3 vertexPosition_modelspace;
+layout(location = 1) in vec3 normal;
+layout(location = 2) in vec2 textureCoord;
+
+uniform mat4 modelMatrix;
+uniform mat4 viewMatrix;
+uniform vec3 lamp;
+
+smooth out vec3 fragNormal;
+smooth out vec3 fragCoord;
+smooth out vec2 texCoord;
+out vec3 lampPos;
+
+mat4 mvp;
+mat3 normalMat;
+
+void main(void){
+    //lightDir = lamp-vertexPosition_modelspace;
+    lampPos = lamp;
+
+    vec4 pos;
+    pos.xyz = vertexPosition_modelspace;
+    pos.w = 1.0;
+    mvp = viewMatrix * modelMatrix; //create the model-view-perspective matrix
+    gl_Position = pos*mvp; //transform by the MVP
+    fragCoord = vec3(pos*mvp);
+    texCoord = textureCoord;
+
+    normalMat = mat3(mvp);
+    normalMat = inverse(normalMat);
+    normalMat = transpose(normalMat);
+    fragNormal = normalize(normal * normalMat); //transform the vertex normals with math that i can not comprehend :(
+ }
